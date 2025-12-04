@@ -6,8 +6,8 @@ rank = comm.rank
 
 
 array_size = 10
-recvdata = numpy.zeros(array_size,dtype=numpy.int)
-senddata = (rank+1)*numpy.arange(array_size,dtype=numpy.int)
+recvdata = numpy.zeros(array_size, dtype=int)
+senddata = (rank+1)*numpy.arange(array_size,dtype=int)
 
 print(" process %s sending %s " %(rank , senddata))
 
