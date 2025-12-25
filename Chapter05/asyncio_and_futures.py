@@ -2,7 +2,7 @@ import asyncio
 import sys
 
 
-@asyncio.coroutine
+@asyncio.coroutines
 def first_coroutine(future, num):
     count = 0
     for i in range(1, num + 1):
@@ -11,7 +11,7 @@ def first_coroutine(future, num):
     future.set_result('First coroutine (sum of N ints) result = %s' % count)
 
 
-@asyncio.coroutine
+@asyncio.coroutines
 def second_coroutine(future, num):
     count = 1
     for i in range(2, num + 1):
