@@ -1,4 +1,4 @@
-CHAPTER 02 CODES
+# Chapter 02
 
 Barrier:
 
