@@ -1,5 +1,5 @@
 # Chapter06
-# Pyro4
+# Pyro4 and Socket
 
 First Exmaple:
 
