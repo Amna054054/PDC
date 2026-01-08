@@ -2,6 +2,8 @@ from __future__ import print_function
 import Pyro4
 import chainTopology
 
+Pyro4.config.THREADPOOL_SIZE = 10
+
 current_server = "2"
 next_server = "3"
 
